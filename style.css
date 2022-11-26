@@ -1,3 +1,55 @@
 body {
-  background-color: rgb(207, 219, 215);
+  font-family: Roboto, sans-serif;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1280px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  /* @include mq(mobile-only) {
+    max-width: 480px;
+  }
+
+  @include mq(tablet) {
+    width: 768px;
+  }
+
+  @include mq(desktop) {
+    width: 1200px;
+  } */
+}
+.button {
+  outline: solid 2px rgb(95, 71, 255);
+}
+
+.head {
+  outline: solid 2px tomato;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(./images/abstract-background-with-red-lines\ 1.jpg);
+}
+
+.choose {
+  display: flex;
+}
+
+.choose--item + .choose--item {
+  margin-left: 39px;
 }
